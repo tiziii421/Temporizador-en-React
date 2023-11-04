@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px;
+  font-size: 3.2rem;/*Multipliica los pixeles del elemento padre al valor puesto, en este caso (16pixeles *3.2) */
+  justify-content: center;
+}
+
+.App {
+  color: white;
+  text-align: center;
+  background-color: rgb(77, 1, 77);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /*Le dices al elemento(App) que se ajuste al valor puesto y se vea bien, en este caso toda la pantalla por el vh*/
+}/*vh o viewport significa toda la parte visible de la ventana del navegador*/
+
+.timer {
+  font-size: 7.5rem;
+  font-family: monospace;
+  color: white;
+  margin: -30px;
+  justify-content: center;
+}
+
+
+button {
+  color: white;
+  text-align: center;
+  background-color: rgb(255, 0, 191);
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3ms;/*Lo que tarda un estado en transicionar a otro cuando se produce un cambio en alguna propiedad*/
+  margin: 45px 20px 0px 10px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+button:active {
+    transform: scale(0.7);
+    background-color: rgb(148, 5, 113);
+}  
