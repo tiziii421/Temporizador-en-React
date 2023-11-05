@@ -53,8 +53,9 @@ function Temporizar() {
     setintervalid(INTERVAL.current);
     setestado('Parar')
     SetTempActivo(true);
+    const meessii = 'h';
   };
-    //que es clip path y que es una custome property
+    
  
   const reset = () => {
     setminutos1(0);
@@ -90,8 +91,8 @@ function Temporizar() {
       </div>
 
       <span>
-        <button class="botones" onClick={TempActivo ? parar : empezar}>{estado}</button>
-        <button class="botones" onClick={reset}>Reset</button>
+        <button onClick={TempActivo ? parar : empezar}>{estado}</button>
+        <button onClick={reset}>Reset</button>
       </span>
     </div>
   );
