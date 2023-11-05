@@ -54,6 +54,7 @@ function Temporizar() {
     setestado('Parar')
     SetTempActivo(true);
     const meessii = 'h';
+    const mesi = 'chau'
   };
     
  
