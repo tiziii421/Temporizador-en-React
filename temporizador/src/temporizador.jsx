@@ -53,8 +53,6 @@ function Temporizar() {
     setintervalid(INTERVAL.current);
     setestado('Parar')
     SetTempActivo(true);
-    const meessii = 'h';
-    const mesi = 'chau'
   };
     
  
