@@ -54,7 +54,6 @@ function Temporizar() {
     setestado('Parar')
     SetTempActivo(true);
   };
-    //pequeño egg easter
  
   const reset = () => {
     setminutos1(0);
